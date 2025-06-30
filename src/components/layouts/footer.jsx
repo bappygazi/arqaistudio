@@ -1,5 +1,6 @@
-import { FaInstagram } from "react-icons/fa6";
+import Link from "next/link";
 import { FaPinterest } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
 
 const FooterSection = () => {
   return (
@@ -12,12 +13,10 @@ const FooterSection = () => {
         <div className="flex flex-col sm:flex-row justify-between items-center gap-6 text-center sm:text-left">
           {/* Left: Text links */}
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6">
-            <p className="text-white text-[14px] font-pop">
-              © 2025 Arqai. All rights reserved.
-            </p>
-            <p className="text-white text-[14px] font-pop cursor-pointer hover:text-[#95774B] transition">
-              Privacy & Cookies
-            </p>
+            <p className="text-white text-[14px] font-pop">© 2025 Arqai. All rights reserved.</p>
+            <Link href="/privacy-policy">
+              <p className="text-white text-[14px] font-pop cursor-pointer hover:text-[#95774B] transition">Privacy & Cookies</p>
+            </Link>
           </div>
 
           {/* Right: Social icons */}
