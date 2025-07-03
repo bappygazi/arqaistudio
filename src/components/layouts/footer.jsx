@@ -21,10 +21,10 @@ const FooterSection = () => {
 
           {/* Right: Social icons */}
           <div className="flex gap-5 text-white text-xl">
-            <a href="#" aria-label="Instagram">
+            <a href="https://www.instagram.com/arqai_studio/" target="blank" aria-label="Instagram">
               <FaInstagram className="hover:text-[#95774B] transition" />
             </a>
-            <a href="#" aria-label="Pinterest">
+            <a href="https://www.pinterest.com/arqaistudio/?invite_code=b448627788c0463980775009f0612167&sender=1152077285835464346" target="blank" aria-label="Pinterest">
               <FaPinterest className="hover:text-[#95774B] transition" />
             </a>
           </div>
